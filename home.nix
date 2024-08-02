@@ -1,1 +1,1 @@
-{ pkgs, config, ... }: { home.packages = with pkgs; [ ansible ]; }
+{ pkgs, ... }: { home.packages = with pkgs; [ ansible ]; }
